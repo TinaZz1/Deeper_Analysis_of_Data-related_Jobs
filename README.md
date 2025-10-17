@@ -58,22 +58,27 @@ I started by extracting the original data in Power Query and created two queries
 - one containing all job information  
 - another listing skills for each `job_id`
 
-![Queries in Power Query](path/to/queries_preview.png)
+<img width="329" height="196" alt="Queries" src="https://github.com/user-attachments/assets/fc585e45-abb1-417c-bfe5-fcebcab81cca" />
+
+
 
 Next, I transformed the data by:
+
 - changing column types  
 - cleaning text to remove specific words (skills)  
 - removing unnecessary columns  
 
-![Applied Steps in Power Query](path/to/applied_steps.png)
+<img width="1911" height="638" alt="Applied Steps in Power Query" src="https://github.com/user-attachments/assets/3050280e-3c85-4513-ae33-be245e00ddc9" />
+<img width="1886" height="694" alt="Applied Steps in Power Query" src="https://github.com/user-attachments/assets/5f9c64fa-349c-49df-a7bb-58c415823b15" />
 
 Afterwards, I loaded the transformed queries into the workbook.
 
-![Loaded Data](path/to/loaded_data.png)
 
 Finally, I created a **Pivot Table** and a **Pivot Chart** with a slicer.
 
-![Pivot Chart Result](path/to/pivot_chart_skills_salary.png)
+
+<img width="1463" height="499" alt="Pivot Chart Result" src="https://github.com/user-attachments/assets/c3b9d9f4-3674-4f12-8791-142b08a39ae7" />
+
 
 ### Final Analysis
 
@@ -91,7 +96,8 @@ Using the Data Model created with Power Pivot, I built a **Pivot Table** showing
 - Median Salary (US)  
 - Median Salary (Non-US)
 
-![Pivot Table by Country](path/to/pivot_table_country.png)
+<img width="674" height="330" alt="Pivot Table by Country" src="https://github.com/user-attachments/assets/0db249c9-b39a-46a6-88d8-80e38fcf162e" />
+
 
 To calculate the **median salary** for jobs in the United States, I added a new DAX measure:
 
@@ -105,7 +111,9 @@ To calculate the **median salary** for jobs in the United States, I added a new 
 
 Job roles such as **Senior Data Engineer** and **Data Scientist** have the highest median salaries both in the US and globally, showing the strong demand for advanced data skills worldwide.
 
-![Pivot Table and Slicer](path/to/pivot_table_dax_result.png)
+
+<img width="964" height="416" alt="Pivot Table and Slicer" src="https://github.com/user-attachments/assets/8a6baded-7e52-4d56-abda-c0a25d6590ae" />
+
 
 ---
 
@@ -119,7 +127,9 @@ For this analysis, I used the previously cleaned and loaded data to create a **C
 
 To improve clarity, I added axis titles, removed unnecessary lines, and changed the markers to diamond shapes.
 
-![Combo Chart of Top 10 Skills](path/to/top10_skills_chart.png)
+
+<img width="1534" height="447" alt="Combo Chart of Top 10 Skills" src="https://github.com/user-attachments/assets/deafab7a-d799-4845-8894-97c2333ebd48" />
+
 
 ### Final Analysis
 
